@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Snake</title>
+</head>
+<body>
+    <div id="container">
+    <div id="a">
+        <label for="speed">Speed:</label>
+        <select id="speed" name="speed">
+            <option value="200">Langsam</option>
+            <option value="100">Mittel</option>
+            <option value="75">Schnell</option>
+        </select>
+        <label for="col">Color:</label>
+        <select id="col" name="col">
+            <option value="darkgreen">Green</option>
+            <option value="blue">Blue</option>
+            <option value="darkred">Red</option>
+            <option value="yellow">Yellow</option>
+        </select>
+    </div>
+    <div id="b">
+        <canvas id="canvas" width="616" height="544"></canvas>
+    </div>
+    <div id="c">
+        <h2>
+            Scoreboard
+        </h2>
+        <div id="table"></div>
+    </div>
+    </div>
+    
+    
+    <script src="script.js">   </script>
+</body>
+</html>
