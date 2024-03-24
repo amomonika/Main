@@ -119,6 +119,7 @@ function createCords(){
 }
 
 function createCards(){
+    cards = [];
     for(let i=0; i<16; i+=2){
         let c = new Card("images/card"+String(i/2+1)+".jpg", randCords[i])
         cards.push(c)
