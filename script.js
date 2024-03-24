@@ -129,7 +129,11 @@ function createCards(){
 }
 
 function reset(){
-    randCords = shuffleArray(cords)
+    turn = 0;
+    seconds =0;
+    bgCol = "Lightgreen";
+    playerTurn = true;
+    randCords = shuffleArray(cords);
     createCards();
     hideAll();
     document.getElementById("score1").textContent = 0
